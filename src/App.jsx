@@ -1,14 +1,16 @@
 
 import './App.css'
-import DaisyNav from './Components/DaisiNav/DaisyNav'
+// import DaisyNav from './Components/DaisiNav/DaisyNav'
 import Navbar from './Components/Navbar/Navbar'
+import PriceOptions from './Components/PriceOptions/PriceOptions'
 function App() {
 
   return (
     <>
       <Navbar></Navbar>
-      <DaisyNav></DaisyNav>
+      {/* <DaisyNav></DaisyNav> */}
       <h1 className='text-7xl bg-rose-600'>React Route</h1>
+      <PriceOptions></PriceOptions>
     </>
   )
 }
